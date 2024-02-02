@@ -1,0 +1,484 @@
+[2024-02-01 02:36:38] [class-ss-archive-creation-job.php:87] Starting a job; no job is presently running
+[2024-02-01 02:36:38] [class-ss-archive-creation-job.php:88] Here's our task list: setup, fetch_urls, create_zip_archive, wrapup
+[2024-02-01 02:36:38] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-02-01 02:36:42] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-02-01 02:36:42] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-02-01 02:36:42] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-02-01 02:36:42] [class-ss-setup-task.php:33] Creating archive directory: C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998\
+[2024-02-01 02:36:42] [class-ss-setup-task.php:79] Adding origin URL to queue: http://llx-computers.local/
+[2024-02-01 02:36:42] [class-ss-setup-task.php:158] File doesn't exist: Users\Lenny\Local Sites\llx-computers\app\public\wp-content\themes\twentytwentyfour
+[2024-02-01 02:36:42] [class-ss-setup-task.php:158] File doesn't exist: Users\Lenny\Local Sites\llx-computers\app\public\wp-content\uploads\2024
+[2024-02-01 02:36:42] [class-ss-setup-task.php:158] File doesn't exist: Users\Lenny\Local Sites\llx-computers\app\public\wp-includes
+[2024-02-01 02:36:42] [class-ss-setup-task.php:137] File C:\Users\Lenny\Local Sites\llx-computers\app\public\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/Users/Lenny/Local Sites/llx-computers/app/public/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-02-01 02:36:42] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-02-01 02:36:42] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-02-01 02:36:42] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-02-01 02:36:42] [class-ss-fetch-urls-task.php:55] Total pages: 2; Pages remaining: 2
+[2024-02-01 02:36:42] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/
+[2024-02-01 02:36:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2024-02-01 02:36:42] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:36:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb03bac1faa-9Ytvl6.tmp
+[2024-02-01 02:36:42] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/?simply_static_page=2319
+[2024-02-01 02:36:42] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/?simply_static_page=2319
+[2024-02-01 02:36:46] [class-ss-url-fetcher.php:103] Filesize: 75894 bytes
+[2024-02-01 02:36:46] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-02-01 02:36:46] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-02-01 02:36:46] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb03bac1faa-9Ytvl6.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/index.html
+[2024-02-01 02:36:46] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:36:47] [class-ss-fetch-urls-task.php:144] Adding 37 URLs to the queue
+[2024-02-01 02:36:47] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:36:47] [class-ss-fetch-urls-task.php:58] URL: C:/Users/Lenny/Local Sites/llx-computers/app/public/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-02-01 02:36:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2024-02-01 02:36:47] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:36:47] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-02-01 02:36:47] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2024-02-01 02:36:47] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-02-01 02:36:47] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-02-01 02:36:47] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-02-01 02:36:47] [class-ss-fetch-urls-task.php:55] Total pages: 38; Pages remaining: 36
+[2024-02-01 02:36:47] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/LLX-Computers-logos.jpeg
+[2024-02-01 02:36:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 38
+[2024-02-01 02:36:47] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:36:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb03bf47678-l3s1LC.tmp
+[2024-02-01 02:36:47] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/LLX-Computers-logos.jpeg?simply_static_page=2321
+[2024-02-01 02:36:47] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/LLX-Computers-logos.jpeg?simply_static_page=2321
+[2024-02-01 02:36:51] [class-ss-url-fetcher.php:103] Filesize: 87788 bytes
+[2024-02-01 02:36:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:36:51] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/LLX-Computers-logos.jpeg
+[2024-02-01 02:36:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb03bf47678-l3s1LC.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/LLX-Computers-logos.jpeg
+[2024-02-01 02:36:51] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:36:51] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:36:51] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:36:51] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/LLX-Computers-logos-300x300.jpeg
+[2024-02-01 02:36:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 38
+[2024-02-01 02:36:51] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:36:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb03c34e3a3-7brrxF.tmp
+[2024-02-01 02:36:51] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/LLX-Computers-logos-300x300.jpeg?simply_static_page=2322
+[2024-02-01 02:36:51] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/LLX-Computers-logos-300x300.jpeg?simply_static_page=2322
+[2024-02-01 02:36:55] [class-ss-url-fetcher.php:103] Filesize: 4459 bytes
+[2024-02-01 02:36:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:36:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/LLX-Computers-logos-300x300.jpeg
+[2024-02-01 02:36:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb03c34e3a3-7brrxF.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/LLX-Computers-logos-300x300.jpeg
+[2024-02-01 02:36:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:36:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:36:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:36:55] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/LLX-Computers-logos-1024x1024.jpeg
+[2024-02-01 02:36:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 38
+[2024-02-01 02:36:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:36:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb03c754b33-hZFQRe.tmp
+[2024-02-01 02:36:55] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/LLX-Computers-logos-1024x1024.jpeg?simply_static_page=2323
+[2024-02-01 02:36:55] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/LLX-Computers-logos-1024x1024.jpeg?simply_static_page=2323
+[2024-02-01 02:36:59] [class-ss-url-fetcher.php:103] Filesize: 24383 bytes
+[2024-02-01 02:36:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:36:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/LLX-Computers-logos-1024x1024.jpeg
+[2024-02-01 02:36:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb03c754b33-hZFQRe.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/LLX-Computers-logos-1024x1024.jpeg
+[2024-02-01 02:36:59] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:36:59] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:36:59] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:36:59] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/LLX-Computers-logos-150x150.jpeg
+[2024-02-01 02:36:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 38
+[2024-02-01 02:36:59] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:36:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb03cb635ef-7PyoJb.tmp
+[2024-02-01 02:36:59] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/LLX-Computers-logos-150x150.jpeg?simply_static_page=2324
+[2024-02-01 02:36:59] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/LLX-Computers-logos-150x150.jpeg?simply_static_page=2324
+[2024-02-01 02:37:03] [class-ss-url-fetcher.php:103] Filesize: 1819 bytes
+[2024-02-01 02:37:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:37:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/LLX-Computers-logos-150x150.jpeg
+[2024-02-01 02:37:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb03cb635ef-7PyoJb.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/LLX-Computers-logos-150x150.jpeg
+[2024-02-01 02:37:03] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:37:03] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:37:03] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:37:03] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/LLX-Computers-logos-768x768.jpeg
+[2024-02-01 02:37:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 38
+[2024-02-01 02:37:03] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:37:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb03cf6dd20-5N0a0w.tmp
+[2024-02-01 02:37:03] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/LLX-Computers-logos-768x768.jpeg?simply_static_page=2325
+[2024-02-01 02:37:03] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/LLX-Computers-logos-768x768.jpeg?simply_static_page=2325
+[2024-02-01 02:37:07] [class-ss-url-fetcher.php:103] Filesize: 16518 bytes
+[2024-02-01 02:37:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:37:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/LLX-Computers-logos-768x768.jpeg
+[2024-02-01 02:37:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb03cf6dd20-5N0a0w.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/LLX-Computers-logos-768x768.jpeg
+[2024-02-01 02:37:07] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:37:07] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:37:07] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:37:07] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/LLX-Computers-logos-600x600.jpeg
+[2024-02-01 02:37:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 38
+[2024-02-01 02:37:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:37:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb03d377468-BAyfcj.tmp
+[2024-02-01 02:37:07] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/LLX-Computers-logos-600x600.jpeg?simply_static_page=2326
+[2024-02-01 02:37:07] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/LLX-Computers-logos-600x600.jpeg?simply_static_page=2326
+[2024-02-01 02:37:11] [class-ss-url-fetcher.php:103] Filesize: 11603 bytes
+[2024-02-01 02:37:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:37:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/LLX-Computers-logos-600x600.jpeg
+[2024-02-01 02:37:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb03d377468-BAyfcj.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/LLX-Computers-logos-600x600.jpeg
+[2024-02-01 02:37:11] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:37:11] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:37:11] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:37:11] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/LLX-Computers-logos-100x100.jpeg
+[2024-02-01 02:37:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 38
+[2024-02-01 02:37:11] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:37:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb03d77ea01-kJVbzA.tmp
+[2024-02-01 02:37:11] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/LLX-Computers-logos-100x100.jpeg?simply_static_page=2327
+[2024-02-01 02:37:11] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/LLX-Computers-logos-100x100.jpeg?simply_static_page=2327
+[2024-02-01 02:37:15] [class-ss-url-fetcher.php:103] Filesize: 1104 bytes
+[2024-02-01 02:37:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:37:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/LLX-Computers-logos-100x100.jpeg
+[2024-02-01 02:37:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb03d77ea01-kJVbzA.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/LLX-Computers-logos-100x100.jpeg
+[2024-02-01 02:37:15] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:37:15] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:37:15] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:37:15] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/777001.jpg
+[2024-02-01 02:37:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 38
+[2024-02-01 02:37:15] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:37:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb03db8b4b6-NnBFfr.tmp
+[2024-02-01 02:37:15] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/777001.jpg?simply_static_page=2328
+[2024-02-01 02:37:15] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/777001.jpg?simply_static_page=2328
+[2024-02-01 02:37:19] [class-ss-url-fetcher.php:103] Filesize: 100933 bytes
+[2024-02-01 02:37:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:37:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/777001.jpg
+[2024-02-01 02:37:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb03db8b4b6-NnBFfr.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/777001.jpg
+[2024-02-01 02:37:19] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:37:19] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:37:19] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:37:19] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/777001-300x200.jpg
+[2024-02-01 02:37:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 38
+[2024-02-01 02:37:19] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:37:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb03df955cf-NCZSrV.tmp
+[2024-02-01 02:37:19] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/777001-300x200.jpg?simply_static_page=2329
+[2024-02-01 02:37:19] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/777001-300x200.jpg?simply_static_page=2329
+[2024-02-01 02:37:23] [class-ss-url-fetcher.php:103] Filesize: 11198 bytes
+[2024-02-01 02:37:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:37:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/777001-300x200.jpg
+[2024-02-01 02:37:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb03df955cf-NCZSrV.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/777001-300x200.jpg
+[2024-02-01 02:37:23] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:37:23] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:37:23] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:37:23] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/777001-1024x683.jpg
+[2024-02-01 02:37:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 38
+[2024-02-01 02:37:23] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:37:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb03e3a3023-VieWpr.tmp
+[2024-02-01 02:37:23] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/777001-1024x683.jpg?simply_static_page=2330
+[2024-02-01 02:37:23] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/777001-1024x683.jpg?simply_static_page=2330
+[2024-02-01 02:37:27] [class-ss-url-fetcher.php:103] Filesize: 61556 bytes
+[2024-02-01 02:37:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:37:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/777001-1024x683.jpg
+[2024-02-01 02:37:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb03e3a3023-VieWpr.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/777001-1024x683.jpg
+[2024-02-01 02:37:27] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:37:27] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:37:27] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:37:27] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/777001-768x512.jpg
+[2024-02-01 02:37:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 38
+[2024-02-01 02:37:27] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:37:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb03e7aa4b4-MWWJ5S.tmp
+[2024-02-01 02:37:27] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/777001-768x512.jpg?simply_static_page=2331
+[2024-02-01 02:37:27] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/777001-768x512.jpg?simply_static_page=2331
+[2024-02-01 02:37:31] [class-ss-url-fetcher.php:103] Filesize: 39899 bytes
+[2024-02-01 02:37:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:37:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/777001-768x512.jpg
+[2024-02-01 02:37:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb03e7aa4b4-MWWJ5S.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/777001-768x512.jpg
+[2024-02-01 02:37:31] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:37:31] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:37:31] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:37:31] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/777001-1536x1024.jpg
+[2024-02-01 02:37:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 38
+[2024-02-01 02:37:31] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:37:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb03ebb5a0a-bPYJse.tmp
+[2024-02-01 02:37:31] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/777001-1536x1024.jpg?simply_static_page=2332
+[2024-02-01 02:37:31] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/777001-1536x1024.jpg?simply_static_page=2332
+[2024-02-01 02:37:35] [class-ss-url-fetcher.php:103] Filesize: 113906 bytes
+[2024-02-01 02:37:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:37:35] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/777001-1536x1024.jpg
+[2024-02-01 02:37:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb03ebb5a0a-bPYJse.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/777001-1536x1024.jpg
+[2024-02-01 02:37:35] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:37:35] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:37:35] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:37:35] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/777001-600x400.jpg
+[2024-02-01 02:37:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 38
+[2024-02-01 02:37:35] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:37:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb03efc2d91-SA8AhU.tmp
+[2024-02-01 02:37:35] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/777001-600x400.jpg?simply_static_page=2333
+[2024-02-01 02:37:35] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/777001-600x400.jpg?simply_static_page=2333
+[2024-02-01 02:37:39] [class-ss-url-fetcher.php:103] Filesize: 27733 bytes
+[2024-02-01 02:37:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:37:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/777001-600x400.jpg
+[2024-02-01 02:37:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb03efc2d91-SA8AhU.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/777001-600x400.jpg
+[2024-02-01 02:37:39] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:37:39] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:37:39] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:37:39] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/1432675-1024x683.jpg
+[2024-02-01 02:37:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 38
+[2024-02-01 02:37:39] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:37:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb03f3cbe1f-cujMJG.tmp
+[2024-02-01 02:37:39] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/1432675-1024x683.jpg?simply_static_page=2334
+[2024-02-01 02:37:39] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/1432675-1024x683.jpg?simply_static_page=2334
+[2024-02-01 02:37:43] [class-ss-url-fetcher.php:103] Filesize: 118165 bytes
+[2024-02-01 02:37:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:37:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/1432675-1024x683.jpg
+[2024-02-01 02:37:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb03f3cbe1f-cujMJG.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/1432675-1024x683.jpg
+[2024-02-01 02:37:43] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:37:43] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:37:43] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:37:43] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/1432675-300x200.jpg
+[2024-02-01 02:37:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 38
+[2024-02-01 02:37:43] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:37:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb03f7d7c70-kxOKo2.tmp
+[2024-02-01 02:37:43] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/1432675-300x200.jpg?simply_static_page=2335
+[2024-02-01 02:37:43] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/1432675-300x200.jpg?simply_static_page=2335
+[2024-02-01 02:37:47] [class-ss-url-fetcher.php:103] Filesize: 19057 bytes
+[2024-02-01 02:37:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:37:47] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/1432675-300x200.jpg
+[2024-02-01 02:37:47] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb03f7d7c70-kxOKo2.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/1432675-300x200.jpg
+[2024-02-01 02:37:47] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:37:47] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:37:47] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:37:47] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/1432675-768x512.jpg
+[2024-02-01 02:37:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 38
+[2024-02-01 02:37:47] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:37:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb03fbe0d5d-KqEeFl.tmp
+[2024-02-01 02:37:47] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/1432675-768x512.jpg?simply_static_page=2336
+[2024-02-01 02:37:47] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/1432675-768x512.jpg?simply_static_page=2336
+[2024-02-01 02:37:51] [class-ss-url-fetcher.php:103] Filesize: 75952 bytes
+[2024-02-01 02:37:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:37:51] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/1432675-768x512.jpg
+[2024-02-01 02:37:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb03fbe0d5d-KqEeFl.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/1432675-768x512.jpg
+[2024-02-01 02:37:51] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:37:51] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:37:51] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:37:51] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/1432675-1536x1024.jpg
+[2024-02-01 02:37:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 38
+[2024-02-01 02:37:51] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:37:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb03ffea673-n3TOP2.tmp
+[2024-02-01 02:37:51] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/1432675-1536x1024.jpg?simply_static_page=2337
+[2024-02-01 02:37:51] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/1432675-1536x1024.jpg?simply_static_page=2337
+[2024-02-01 02:37:55] [class-ss-url-fetcher.php:103] Filesize: 218373 bytes
+[2024-02-01 02:37:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:37:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/1432675-1536x1024.jpg
+[2024-02-01 02:37:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb03ffea673-n3TOP2.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/1432675-1536x1024.jpg
+[2024-02-01 02:37:55] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:37:55] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:37:55] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:37:55] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/1432675-600x400.jpg
+[2024-02-01 02:37:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 38
+[2024-02-01 02:37:55] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:37:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb0403f4142-BAhBHN.tmp
+[2024-02-01 02:37:56] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/1432675-600x400.jpg?simply_static_page=2338
+[2024-02-01 02:37:56] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/1432675-600x400.jpg?simply_static_page=2338
+[2024-02-01 02:38:00] [class-ss-url-fetcher.php:103] Filesize: 52416 bytes
+[2024-02-01 02:38:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:38:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/1432675-600x400.jpg
+[2024-02-01 02:38:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb0403f4142-BAhBHN.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/1432675-600x400.jpg
+[2024-02-01 02:38:00] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:38:00] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:38:00] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:38:00] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/1432675.jpg
+[2024-02-01 02:38:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 38
+[2024-02-01 02:38:00] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:38:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb04080966e-SY44vM.tmp
+[2024-02-01 02:38:00] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/1432675.jpg?simply_static_page=2339
+[2024-02-01 02:38:00] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/1432675.jpg?simply_static_page=2339
+[2024-02-01 02:38:04] [class-ss-url-fetcher.php:103] Filesize: 189584 bytes
+[2024-02-01 02:38:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:38:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/1432675.jpg
+[2024-02-01 02:38:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb04080966e-SY44vM.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/1432675.jpg
+[2024-02-01 02:38:04] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:38:04] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:38:04] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:38:04] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/3850587-1024x683.jpg
+[2024-02-01 02:38:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 38
+[2024-02-01 02:38:04] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:38:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb040c15660-sMX4ct.tmp
+[2024-02-01 02:38:04] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/3850587-1024x683.jpg?simply_static_page=2340
+[2024-02-01 02:38:04] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/3850587-1024x683.jpg?simply_static_page=2340
+[2024-02-01 02:38:07] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local
+[2024-02-01 02:38:08] [class-ss-url-fetcher.php:103] Filesize: 61265 bytes
+[2024-02-01 02:38:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:38:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/3850587-1024x683.jpg
+[2024-02-01 02:38:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb040c15660-sMX4ct.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/3850587-1024x683.jpg
+[2024-02-01 02:38:08] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:38:08] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:38:08] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:38:08] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/3850587-300x200.jpg
+[2024-02-01 02:38:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 38
+[2024-02-01 02:38:08] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:38:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb04102046b-Z3Xz21.tmp
+[2024-02-01 02:38:08] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/3850587-300x200.jpg?simply_static_page=2341
+[2024-02-01 02:38:08] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/3850587-300x200.jpg?simply_static_page=2341
+[2024-02-01 02:38:12] [class-ss-url-fetcher.php:103] Filesize: 13170 bytes
+[2024-02-01 02:38:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:38:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/3850587-300x200.jpg
+[2024-02-01 02:38:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb04102046b-Z3Xz21.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/3850587-300x200.jpg
+[2024-02-01 02:38:12] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:38:12] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:38:12] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:38:12] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/3850587-768x512.jpg
+[2024-02-01 02:38:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 38
+[2024-02-01 02:38:12] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:38:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb04142d8f6-TUgvze.tmp
+[2024-02-01 02:38:12] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/3850587-768x512.jpg?simply_static_page=2342
+[2024-02-01 02:38:12] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/3850587-768x512.jpg?simply_static_page=2342
+[2024-02-01 02:38:16] [class-ss-url-fetcher.php:103] Filesize: 40674 bytes
+[2024-02-01 02:38:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:38:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/3850587-768x512.jpg
+[2024-02-01 02:38:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb04142d8f6-TUgvze.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/3850587-768x512.jpg
+[2024-02-01 02:38:16] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:38:16] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:38:16] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:38:16] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/3850587-1536x1024.jpg
+[2024-02-01 02:38:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 38
+[2024-02-01 02:38:16] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:38:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb04183546d-JcbW4Q.tmp
+[2024-02-01 02:38:16] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/3850587-1536x1024.jpg?simply_static_page=2343
+[2024-02-01 02:38:16] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/3850587-1536x1024.jpg?simply_static_page=2343
+[2024-02-01 02:38:20] [class-ss-url-fetcher.php:103] Filesize: 113349 bytes
+[2024-02-01 02:38:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:38:20] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/3850587-1536x1024.jpg
+[2024-02-01 02:38:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb04183546d-JcbW4Q.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/3850587-1536x1024.jpg
+[2024-02-01 02:38:20] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:38:20] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:38:20] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:38:20] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/3850587-600x400.jpg
+[2024-02-01 02:38:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 38
+[2024-02-01 02:38:20] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:38:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb041c431ff-QxiKJq.tmp
+[2024-02-01 02:38:20] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/3850587-600x400.jpg?simply_static_page=2344
+[2024-02-01 02:38:20] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/3850587-600x400.jpg?simply_static_page=2344
+[2024-02-01 02:38:24] [class-ss-url-fetcher.php:103] Filesize: 29503 bytes
+[2024-02-01 02:38:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:38:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/3850587-600x400.jpg
+[2024-02-01 02:38:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb041c431ff-QxiKJq.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/3850587-600x400.jpg
+[2024-02-01 02:38:24] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:38:24] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:38:24] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:38:24] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/uploads/2024/01/3850587.jpg
+[2024-02-01 02:38:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 38
+[2024-02-01 02:38:24] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:38:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb04204881c-7TvYoz.tmp
+[2024-02-01 02:38:24] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/uploads/2024/01/3850587.jpg?simply_static_page=2345
+[2024-02-01 02:38:24] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/uploads/2024/01/3850587.jpg?simply_static_page=2345
+[2024-02-01 02:38:28] [class-ss-url-fetcher.php:103] Filesize: 94587 bytes
+[2024-02-01 02:38:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-02-01 02:38:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/01/3850587.jpg
+[2024-02-01 02:38:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb04204881c-7TvYoz.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/uploads/2024/01/3850587.jpg
+[2024-02-01 02:38:28] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:38:28] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:38:28] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:38:28] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/feed/
+[2024-02-01 02:38:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 38
+[2024-02-01 02:38:28] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:38:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb042454d12-umGZjh.tmp
+[2024-02-01 02:38:28] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/feed/?simply_static_page=2346
+[2024-02-01 02:38:28] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/feed/?simply_static_page=2346
+[2024-02-01 02:38:37] [class-ss-url-fetcher.php:251] Fetching URL: file:///C:/wp-includes/blocks/navigation/style.min.css?ver=6.4.2
+[2024-02-01 02:38:58] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-02-01 02:38:58] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30006 milliseconds with 0 bytes received
+[2024-02-01 02:38:58] [class-ss-url-fetcher.php:107] object(WP_Error)#1191 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30006 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-02-01 02:38:58] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/comments/feed/
+[2024-02-01 02:38:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 38
+[2024-02-01 02:38:58] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:38:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb044258a86-CpGjZq.tmp
+[2024-02-01 02:38:58] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/comments/feed/?simply_static_page=2347
+[2024-02-01 02:38:58] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/comments/feed/?simply_static_page=2347
+[2024-02-01 02:39:28] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-02-01 02:39:28] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received
+[2024-02-01 02:39:28] [class-ss-url-fetcher.php:107] object(WP_Error)#1194 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-02-01 02:39:28] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-includes/blocks/navigation/style.min.css
+[2024-02-01 02:39:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 38
+[2024-02-01 02:39:28] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:39:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb04605ca24-gTFOFY.tmp
+[2024-02-01 02:39:28] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-includes/blocks/navigation/style.min.css?simply_static_page=2348
+[2024-02-01 02:39:28] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-includes/blocks/navigation/style.min.css?simply_static_page=2348
+[2024-02-01 02:39:32] [class-ss-url-fetcher.php:103] Filesize: 16534 bytes
+[2024-02-01 02:39:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-02-01 02:39:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-02-01 02:39:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb04605ca24-gTFOFY.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-includes/blocks/navigation/style.min.css
+[2024-02-01 02:39:32] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:39:32] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:39:32] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:39:32] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-json/
+[2024-02-01 02:39:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 38
+[2024-02-01 02:39:32] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://llx-computers.local/wp-json/
+[2024-02-01 02:39:32] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-02-01 02:39:32] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/xmlrpc.php
+[2024-02-01 02:39:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 38
+[2024-02-01 02:39:32] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://llx-computers.local/xmlrpc.php
+[2024-02-01 02:39:32] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-02-01 02:39:32] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-includes/js/dist/interactivity.min.js
+[2024-02-01 02:39:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 38
+[2024-02-01 02:39:32] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:39:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb046469009-f9wUjd.tmp
+[2024-02-01 02:39:32] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-includes/js/dist/interactivity.min.js?simply_static_page=2351
+[2024-02-01 02:39:32] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-includes/js/dist/interactivity.min.js?simply_static_page=2351
+[2024-02-01 02:39:36] [class-ss-url-fetcher.php:103] Filesize: 32281 bytes
+[2024-02-01 02:39:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-02-01 02:39:36] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-02-01 02:39:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb046469009-f9wUjd.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-includes/js/dist/interactivity.min.js
+[2024-02-01 02:39:36] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:39:36] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:39:36] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:39:36] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-includes/blocks/navigation/view.min.js
+[2024-02-01 02:39:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 38
+[2024-02-01 02:39:36] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:39:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb046874a35-NoIBHC.tmp
+[2024-02-01 02:39:36] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-includes/blocks/navigation/view.min.js?simply_static_page=2352
+[2024-02-01 02:39:36] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-includes/blocks/navigation/view.min.js?simply_static_page=2352
+[2024-02-01 02:39:40] [class-ss-url-fetcher.php:103] Filesize: 3586 bytes
+[2024-02-01 02:39:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-02-01 02:39:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-02-01 02:39:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb046874a35-NoIBHC.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-includes/blocks/navigation/view.min.js
+[2024-02-01 02:39:40] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:39:40] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:39:40] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:39:40] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-02-01 02:39:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 38
+[2024-02-01 02:39:40] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:39:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb046c7f5c2-9sUD6L.tmp
+[2024-02-01 02:39:40] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=2353
+[2024-02-01 02:39:40] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=2353
+[2024-02-01 02:39:44] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
+[2024-02-01 02:39:44] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-02-01 02:39:44] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-02-01 02:39:44] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb046c7f5c2-9sUD6L.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-02-01 02:39:44] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:39:44] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:39:44] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:39:44] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-02-01 02:39:44] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 38
+[2024-02-01 02:39:44] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:39:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb04708a8bf-87KOhG.tmp
+[2024-02-01 02:39:44] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=2354
+[2024-02-01 02:39:44] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=2354
+[2024-02-01 02:39:48] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
+[2024-02-01 02:39:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-02-01 02:39:48] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-02-01 02:39:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb04708a8bf-87KOhG.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-02-01 02:39:48] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:39:48] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:39:48] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:39:48] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-02-01 02:39:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 38
+[2024-02-01 02:39:48] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:39:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb047493ecf-9mW11k.tmp
+[2024-02-01 02:39:48] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=2355
+[2024-02-01 02:39:48] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=2355
+[2024-02-01 02:39:52] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
+[2024-02-01 02:39:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-02-01 02:39:52] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-02-01 02:39:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb047493ecf-9mW11k.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-02-01 02:39:52] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:39:52] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:39:52] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:39:52] [class-ss-fetch-urls-task.php:58] URL: http://llx-computers.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-02-01 02:39:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 38
+[2024-02-01 02:39:52] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-02-01 02:39:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/65bb04789ff9c-8hZpdd.tmp
+[2024-02-01 02:39:52] [class-ss-page-handler.php:38] URL Prepared:http://llx-computers.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=2356
+[2024-02-01 02:39:52] [class-ss-url-fetcher.php:251] Fetching URL: http://llx-computers.local/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=2356
+[2024-02-01 02:39:56] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
+[2024-02-01 02:39:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-02-01 02:39:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-02-01 02:39:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/65bb04789ff9c-8hZpdd.tmp to C:\Users\Lenny\Local Sites\llx-computers\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1706754998/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-02-01 02:39:56] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-02-01 02:39:56] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-02-01 02:39:56] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-02-01 02:39:56] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 38 pages/files
+[2024-02-01 02:39:56] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
