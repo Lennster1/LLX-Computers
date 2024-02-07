@@ -1,2 +1,0 @@
-<br>
-<b>Fatal error</b>:  Trait &quot;Imagify\Deprecated\Traits\Optimization\Process\AbstractProcessDeprecatedTrait&quot; not found in <b>C:\laragon\www\wp-content\plugins\imagify\classes\Optimization\Process\AbstractProcess.php</b> on line <b>15</b><br>
